@@ -1,1 +1,2 @@
-Desafio 2 - Outubro rosa, do curso de Full Stack da Vai na Web
+Desafio 2 - Outubro rosa 
+curso de Full Stack da Vai na Web
