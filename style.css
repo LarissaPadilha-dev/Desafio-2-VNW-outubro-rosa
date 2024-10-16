@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
 }
 
 header {
@@ -19,9 +20,14 @@ header nav {
   justify-content: space-evenly;
   width: 60vw;
 }
+header p {
+  font-size: 1.2rem;
+  font-weight: 380;
+}
 header a {
   color: white;
   text-decoration: none;
+  font-size: 1.2rem;
 }
 header a a:hover {
   background-color: #a80a59;
@@ -40,10 +46,12 @@ header a a:hover {
   height: 60vh;
 }
 .prevenção p {
+  display: flex;
+  align-items: center;
   width: 46vw;
   height: 28vh;
-  font-size: 25px;
-  font-weight: 400;
+  font-size: 1.6rem;
+  font-weight: 380;
 }
 
 .conscientização {
@@ -55,8 +63,8 @@ header a a:hover {
 }
 .conscientização p {
   color: white;
-  width: 33.75vw;
-  font-size: 25px;
+  width: 33.8vw;
+  font-size: 1.4rem;
 }
 
 .recomendações {

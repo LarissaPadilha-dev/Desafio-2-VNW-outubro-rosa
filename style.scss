@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
   }
   
   header {
@@ -17,9 +18,14 @@
       justify-content: space-evenly;
       width: 60vw;
     }
+    p {
+      font-size: 1.2rem;
+      font-weight: 380;
+    }
     a{
       color: white;
       text-decoration: none;
+      font-size: 1.2rem;
       a:hover {
         background-color:  #a80a59;
     }   
@@ -37,10 +43,12 @@
     justify-content: space-around;
     height: 60vh;
     p {
+      display: flex;
+      align-items: center;
       width: 46vw;
       height: 28vh;
-      font-size: 25px;
-      font-weight: 400;
+      font-size: 1.6rem;
+      font-weight: 380;
     }
 }
 
@@ -53,8 +61,8 @@
   
     p {
       color: white;
-      width: 33.75vw;
-      font-size: 25px;
+      width: 33.8vw;
+      font-size: 1.4rem;
     } 
   }
 
