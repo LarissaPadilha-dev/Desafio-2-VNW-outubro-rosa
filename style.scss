@@ -3,8 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Noto Sans", sans-serif;
+    cursor: url('./cursor/laço.png'), auto;  
   }
-  
+  // --------------------------------------- Header ---------------------------------------------------------
   header {
     background-color: #FF69B4; 
     height: 16vh; 
@@ -12,31 +13,35 @@
     align-items: center;
     justify-content: space-between;
     color: white;
+    h1 {
+      font-size: 1.7rem;
+      font-weight: 500;
+    }
     nav {
       display: flex;
       align-items: center;
       justify-content: space-evenly;
       width: 60vw;
     }
-    p {
-      font-size: 1.2rem;
-      font-weight: 380;
-
-    }
     a{
       color: white;
       text-decoration: none;
       font-size: 1.2rem;
-      a:hover {
-        background-color:  #a80a59;
+      &:hover {
+        color: #fd0682;
+      }
     }   
   }
-}
+
   .boxheader {
     display: flex;
     align-items: center;
+    img {
+      width: 5vw;
+    }
   }
-
+ 
+  // --------------------------------------- Main ---------------------------------------------------------
   .prevenção {
     background-color: #ffd9ec;
     display: flex;
@@ -75,7 +80,7 @@
     align-items: center;
     justify-content: space-evenly;
   }
-
+  // --------------------------------------- Footer ---------------------------------------------------------
   footer {
     display: flex;
     align-items: center;
